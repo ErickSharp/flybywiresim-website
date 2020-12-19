@@ -18,5 +18,6 @@ Auth::routes([
 ]);
 
 Route::get('/', [App\Http\Controllers\Site\SiteController::class, 'index'])->name('site.index');
+Route::get('/features', [App\Http\Controllers\Site\SiteController::class, 'features'])->name('site.features');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

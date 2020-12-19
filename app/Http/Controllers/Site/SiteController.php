@@ -10,4 +10,8 @@ class SiteController extends Controller
     public function index(){
         return view('site.index');
     }
+
+    public function features(){
+        return view('site.features');
+    }
 }
