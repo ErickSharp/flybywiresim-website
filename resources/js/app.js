@@ -17,6 +17,7 @@ require('./components/Counter');
 require('./components/site/DownloadCount');
 require('./components/site/Contributors');
 require('./components/site/Commits');
+require('./components/site/DownloadInstaller');
 require('./components/ActiveFlights');
 require('./components/LiveMap');
 require('./components/Changelog');

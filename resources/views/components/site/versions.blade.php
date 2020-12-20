@@ -23,9 +23,7 @@
                 <hr/>
                 <p class="card-subtitle">Installation support can be provided on discord.</p>
             </div>
-            <div class="container p-3">
-                <button class="btn btn-lg btn-primary rounded-pill" type="button">Download</button>
-            </div>
+            <div class="container p-3" id="download-installer"></div>
             <div class="card-footer">
                 <div class="text-muted" id="last-updated"></div>
             </div>

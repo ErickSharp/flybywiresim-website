@@ -8,7 +8,6 @@ function Downloads() {
     async function getDownloads() {
         try {
             const request = await fetch('https://api.github.com/repos/flybywiresim/a32nx/releases');
-            console.log("requested");
             const reqJson = await request.json();
 
             const downloads = [];

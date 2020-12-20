@@ -6,7 +6,9 @@
             <h1><b><span class="fbw-b-text">A32</span><span class="fbw-db-text">N</span>X</b></h1>
             <p>A <span class="fbw-b-text">community</span> built and maintained project aiming to provide study-level
                 aircraft for Microsoft Flight Simulator.</p>
-            <button type="button" class="btn rounded-pill btn-lg btn-primary px-4">Download</button>
+            <a href="/#download" style="text-decoration: inherit; color: inherit">
+                <button type="button" class="btn rounded-pill btn-lg btn-primary px-4">Download</button>
+            </a>
             <button type="button" class="btn rounded-pill btn-lg btn-outline-light px-4">NOTAMS</button>
         </div>
 
